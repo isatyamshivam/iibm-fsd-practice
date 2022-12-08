@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.website-logo{
+  width: 70px;
+  height: 70px;
+}
+
+#navbar-item{
+    color: rgb(0, 97, 215);
+    font-family: 'Franklin Gothic';
+}
+
+.banner-container{
+  background-image: url('images/website-banner.jpg');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-card{
+    background: rgba(255, 255, 255, .6);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.banner-card-heading{
+    color: darkslateblue;
+    font-family: Bree;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.banner-card-caption{
+    color: black;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-card-button1{
+    height: 40px;
+    width: 120px;
+    background-color: darkslateblue;
+    color: white;
+    font-family: 'sans-serif';
+    border: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.banner-card-button2{
+    height: 40px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0);
+    color: darkslateblue;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    border: 3px solid;
+    border-color: darkslateblue;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.wcu-container{
+    background-color: lavender;
+    padding: 40px;
+}
+
+.wcu-container-heading{
+    color: darkblue;
+    font-family: Bree;
+    font-weight: bold;
+}
+
+.wcu-container-discription{
+    font-family: 'sans sarif';
+    font-size: 18px;
+}
+
+.wcu-card{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-color: #cddfe5;
+    border-radius: 10px;
+}
+
+.wcu-card-logo{
+    height: 100px;
+    width: 120px;
+}
+
+.wcu-card-title{
+    font-family: Bree;
+    font-size: 27px;
+}
+
+.wcu-card-discription{
+    font-size: 15px;
+}
+
+.explore-container{
+    background-color: white;
+    padding: 40px;
+}
+
+.explore-container-heading{
+    color: darkblue;
+    font-family: Bree;
+    font-weight: bold;
+}
+
+.explore-container-discription{
+    font-family: 'sans sarif';
+    font-size: 18px;
+}
+
+.explore-card{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+    padding: 12px;
+    margin: 20px;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+.explore-card-image{
+    height: 150px;
+    width: 225px;
+    border-radius: 10px;
+}
+
+.explore-card-title{
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.explore-card-discription{
+    color: blue;
+    font-size: 14px;
+}
+
+.payment-container{
+    background-color: antiquewhite;
+    padding: 40px;
+}
+
+.payment-container-image{
+    height: 300px;
+    width: 200px;
+}
+
+.payment-container-heading{
+    color: darkblue;
+    font-family: Bree;
+    font-weight: bold;
+}
+
+.payment-container-discription{
+    font-family: 'sans sarif';
+    font-size: 18px;
+}
+
+.payment-button{
+    background-color: darkslateblue;
+    color: white;
+    font-size: 15px;
+    font-family: 'sans-serif';
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.payment-container-options{
+    height: 90px;
+    width: 350px;
+}
+
+.gift-container{
+    background-color: white;
+    padding: 40px;
+}
+
+.gift-container-heading{
+    color: darkblue;
+    font-family: 'sans-serif';
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.gift-container-discription{
+    font-family: 'sans-serif';
+    font-size: 18px;
+}
+
+.gift-container-image{
+    height: 200px;
+    width: 200px;
+}
+
+.about-us-container{
+    background-color: lightcyan;
+    padding: 40px;
+}
+
+.about-us-heading{
+    color: darkblue;
+    font-family: Bree;
+    font-weight: bold;
+}
+
+.about-us-logo-container{
+    width: 80px;
+    height: 80px;
+    background-color:#cddfe5;
+    border-radius: 50%;
+    margin:15px;
+    padding-top: 23px;
+    padding-left: 3px;
+}
+
+.about-us-logo{
+    color: darkslateblue;
+    font-size: 35px;
+}
+
+.footer-container{
+    background-color: black;
+    padding: 40px;
+}
+
+.footer-heading{
+    margin: 20px;
+    color: white;
+    font-family: Bree;
+}
+
+.footer-caption{
+    color: white;
+}
